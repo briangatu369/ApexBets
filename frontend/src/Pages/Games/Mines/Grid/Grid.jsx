@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import GridElement from "./GridElement";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import api from "../../../../Config/axiosConfig";
 import { MINESACTION } from "../Data/minesReducer";
 import { toast } from "sonner";
