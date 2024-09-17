@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 import { FaHistory } from "react-icons/fa";
 import GameHeader from "../../../../Components/GamesHeader/GamesHeader";
