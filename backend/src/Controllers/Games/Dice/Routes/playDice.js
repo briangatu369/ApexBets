@@ -8,11 +8,11 @@ const {
 } = require("../Data/constants");
 const {
   validatePredictionInCorrectMode,
-} = require("../gameLogics/correctModeLogic");
-const { validatePredictionInOverMode } = require("../gameLogics/overModeLogic");
+} = require("../GameLogics/correctModeLogic");
+const { validatePredictionInOverMode } = require("../GameLogics/overModeLogic");
 const {
   validatePredictionInUnderMode,
-} = require("../gameLogics/underModeLogic");
+} = require("../GameLogics/underModeLogic");
 const { calculateDiceMultiplier } = require("../Utils/calculateMultiplier");
 const {
   calculateFavorableOutcomes,
