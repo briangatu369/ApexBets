@@ -1,9 +1,5 @@
 // List of allowed domains
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://apex-bets.vercel.app",
-  "https://apexbets.onrender.com",
-];
+const allowedOrigins = ["http://localhost:5173", "https://apexbets.vercel.app"];
 
 // CORS options
 const corsOptions = {
