@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import FixedStakes from "./FixedStakes";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import { MINESACTION } from "../Data/minesReducer";
 
 const StakeInput = () => {

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import { MINESACTION } from "../Data/minesReducer";
 
 const MAXNUMBEROFBOMBS = 24;

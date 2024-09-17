@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import Diamond from "../../../../assets/mines/diamond.svg";
 import Bomb from "../../../../assets/mines/bomb.svg";
 import GridElementLoader from "./GridElementLoader";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import { twMerge } from "tailwind-merge";
 import GridButton from "./GridButton";
 

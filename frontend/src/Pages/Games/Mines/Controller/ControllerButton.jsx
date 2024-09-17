@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import SubmitButton from "../../../../Components/SubmitButton";
 import { GiRollingBomb } from "react-icons/gi";
-import { MinesContext } from "../Context/minesProvider";
+import { MinesContext } from "../Context/MinesProvider";
 import api from "../../../../Config/axiosConfig";
 import StartGameAudio from "../../../../assets/mines/startGameSound.wav";
 import CashoutAudio from "../../../../assets/mines/cashoutSound.wav";
