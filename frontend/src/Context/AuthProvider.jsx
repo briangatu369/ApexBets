@@ -6,7 +6,7 @@ export const authContext = createContext({});
 const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userDetails, setUserDetails] = useState({});
-  const [currentAccount, setCurrentAccount] = useState(ACCOUNTS.REAL);
+  const [currentAccount, setCurrentAccount] = useState(ACCOUNTS.DEMO);
 
   return (
     <authContext.Provider
