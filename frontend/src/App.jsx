@@ -13,7 +13,7 @@ function App() {
       <Toaster
         richColors
         position="top-center"
-        duration={500}
+        duration={2000}
         expand={true}
         toastOptions={{
           style: {
